@@ -2,12 +2,13 @@ Summary:	wmDrawer - a dock application which provides a retractable button bar
 Summary(pl):	Dokowalna aplikacja wysuwaj±cych siê guzików
 Name:		wmdrawer
 Version:	0.10.5
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://people.easter-eggs.org/~valos/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	b8c4a5d5abd593a29504dfe4c30c8925
 Source1:	%{name}.desktop
+Patch0:		%{name}-lib64.patch
 URL:		http://people.easter-eggs.org/~valos/wmdrawer/
 BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRequires:	pkgconfig
@@ -23,6 +24,9 @@ wmDrawer jest dokowaln± aplikacj± dla WindowMakera, która wy¶wietla
 
 %prep
 %setup -q
+%if "%{_lib}" == "lib64"
+%patch0 -p1
+%endif
 
 %build
 %{__make} \
