@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=wmdrawer
+Comment=Dockapp with buton bar to lunch applications
+Comment[pl]=Aplet z guzikami do uruchamiania aplikacji
+Exec=wmdrawer
+Terminal=false
+Type=Application
+Categories=X-Docklet;
+NotShowIn=GNOME;KDE;
+# vi: encoding=utf-8
