@@ -1,0 +1,11 @@
+--- wmdrawer-0.10.5/Makefile.fix	2004-08-25 23:33:40.205806824 +0200
++++ wmdrawer-0.10.5/Makefile	2004-08-25 23:34:07.607641112 +0200
+@@ -31,7 +31,7 @@
+ ifdef USE_GDKPIXBUF2
+ IMGLIB_DEF = -DUSE_GDKPIXBUF2
+ CFLAGS = -O3 -Wall `pkg-config --cflags gdk-pixbuf-xlib-2.0` -I/usr/X11R6/include
+-LDFLAGS = `pkg-config --libs gdk-pixbuf-xlib-2.0` -rdynamic -lX11 -lXi -lXext -L/usr/X11R6/lib
++LDFLAGS = `pkg-config --libs gdk-pixbuf-xlib-2.0` -rdynamic -lX11 -lXi -lXext -L/usr/X11R6/lib -L/usr/X11R6/lib64
+ endif
+ 
+ ifdef USE_IMLIB
