@@ -10,14 +10,13 @@ Source0:	http://people.easter-eggs.org/~valos/%{name}/%{name}-%{version}.tar.gz
 URL:		http://people.easter-eggs.org/~valos/wmdrawer/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-
 %description
 wmDrawer is a dock application (dockapp) which provides a drawer
 (retractable button bar) to launch applications.
 
 %description -l pl
-wmpower jest aplikacj± dokuj±c± dla WindowMakera, która wy¶wietla
-super menu z guzikami do uruchamiania aplikacji.
+wmDrawer jest aplikacj± dokuj±c± dla WindowMakera, która wy¶wietla
+³adne menu z guzikami do uruchamiania aplikacji.
 
 %prep
 %setup -q
@@ -33,7 +32,6 @@ super menu z guzikami do uruchamiania aplikacji.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_bindir}
 install %{name} $RPM_BUILD_ROOT%{_bindir}
-
 
 %clean
 rm -rf $RPM_BUILD_ROOT
