@@ -6,6 +6,6 @@ Comment[pl]=Aplet z guzikami do uruchamiania aplikacji
 Exec=wmdrawer
 Terminal=false
 Type=Application
-Categories=X-Docklet;
+Categories=Applet;
 NotShowIn=GNOME;KDE;
 # vi: encoding=utf-8
