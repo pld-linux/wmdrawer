@@ -10,7 +10,7 @@ Source0:	http://people.easter-eggs.org/~valos/%{name}/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Patch0:		%{name}-lib64.patch
 URL:		http://people.easter-eggs.org/~valos/wmdrawer/
-BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	pkgconfig
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
