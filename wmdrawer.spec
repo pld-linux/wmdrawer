@@ -1,5 +1,5 @@
 Summary:	wmDrawer - a dock application which provides a retractable button bar
-Summary(pl.UTF-8):   Dokowalna aplikacja wysuwających się guzików
+Summary(pl.UTF-8):	Dokowalna aplikacja wysuwających się guzików
 Name:		wmdrawer
 Version:	0.10.5
 Release:	2
