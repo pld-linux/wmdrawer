@@ -1,5 +1,5 @@
 Summary:	wmDrawer - a dock application which provides a retractable button bar
-Summary(pl):	Dokowalna aplikacja wysuwaj±cych siê guzików
+Summary(pl.UTF-8):   Dokowalna aplikacja wysuwajÄ…cych siÄ™ guzikÃ³w
 Name:		wmdrawer
 Version:	0.10.5
 Release:	2
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 wmDrawer is a dock application (dockapp) which provides a drawer
 (retractable button bar) to launch applications.
 
-%description -l pl
-wmDrawer jest dokowaln± aplikacj± dla WindowMakera, która wy¶wietla
-³adne menu z guzikami do uruchamiania aplikacji.
+%description -l pl.UTF-8
+wmDrawer jest dokowalnÄ… aplikacjÄ… dla WindowMakera, ktÃ³ra wyÅ›wietla
+Å‚adne menu z guzikami do uruchamiania aplikacji.
 
 %prep
 %setup -q
